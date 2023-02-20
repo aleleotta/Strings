@@ -6,3 +6,6 @@ public class Main {
 		Functions.shorterString();
 	}
 }
+/*Introducir por teclado dos frases e indicar cuál de ellas es la más corta,
+ *es decir, la que contiene menos caracteres.
+*/
