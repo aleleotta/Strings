@@ -7,3 +7,7 @@ public class Main {
 		sc.close();
 	}
 }
+
+/*Diseña una aplicación que pida al usuario que introduzca una frase por teclado
+ *e indique cuántos espacios en blanco tiene.
+ */
