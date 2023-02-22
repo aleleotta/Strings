@@ -8,7 +8,11 @@ public class Functions {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Please introduce a sentence: ");
 		input = sc.nextLine();
-		for(int index = 0; index < input.length(); index++) {}
+		for(int index = input.length()-1; index >= 0; index--) {
+			char reverse = input.charAt(index);
+			String reverseString = input.substring(index, index+1);
+			System.out.print(reverseString);
+		}
 		sc.close();
 	}
 }
