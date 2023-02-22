@@ -15,7 +15,7 @@ public class Functions {
 				blanks++;
 			}
 		}
-		System.out.println("There are " + blanks + " blanks.");
+		System.out.println("\nThere are " + blanks + " blanks.");
 		sc.close();
 		return blanks;
 	}
