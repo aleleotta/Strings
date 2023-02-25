@@ -2,7 +2,7 @@ package exercise4;
 import java.util.*;
 
 public class Functions {
-	
+
 	public static void invertString() {
 		String input;
 		Scanner sc = new Scanner(System.in);
