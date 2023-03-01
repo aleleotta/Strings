@@ -4,15 +4,24 @@ import java.util.*;
 public class Functions {
 	
 	public static void concatenate() {
-		String string1 = "";
+		String string1 = ""; //Variables declared.
 		String string2 = "";
-		Scanner sc = new Scanner(System.in);
-		System.out.print("Introduce the first substring: ");
+		String fusion = "";
+		Scanner sc = new Scanner(System.in); //Scanner declaration
+		System.out.print("Introduce the first substring: "); //First substring input
 		string1 = sc.next();
-		System.out.print("Introduce another substring: ");
+		System.out.print("Introduce the second substring: "); //Second substring input
 		string2 = sc.next();
-		while(!string2.equalsIgnoreCase("end") || !string2.equalsIgnoreCase("fin")) {}
-		sc.close();
+		fusion = string1 + " " + string2; //Both substrings fuse together to make new string.
+		while(!string2.equalsIgnoreCase("end") && !string2.equalsIgnoreCase("fin")) { //While the second string is not equal to end or fin ignoring the case the program will keep asking for another input for string2.
+			System.out.print("Introduce another substring: ");
+			string2 = sc.next();
+			if(!string2.equalsIgnoreCase("end") && !string2.equalsIgnoreCase("fin")) { //If statement prevents "end" or "fin" from being included in the final string.
+				fusion = fusion + " " + string2; //Concatenation of the next substring into string.
+			}
+		}
+		System.out.println(fusion); //Final string shown.
+		sc.close(); //Scanner closes.
 	}
 }
 
