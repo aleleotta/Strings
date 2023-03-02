@@ -5,7 +5,9 @@ public class Functions {
 	public static boolean checkPalindrome(String phrase) {
 		boolean check = false;
 		for(int index = 0; index < phrase.length(); index++) {
-			
+			if(indexOf(index) == lastIndexOf(index)) {
+				
+			}
 		}
 		return check;
 	}
