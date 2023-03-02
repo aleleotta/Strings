@@ -3,7 +3,11 @@ import java.util.*;
 
 public class Main {
 	public static void main(String[] args) {
+		String phrase = "";
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Type in a phrase:");
+		phrase = sc.nextLine();
+		System.out.println("\n" + "Is the phrase palindrome?\t" + Functions.checkPalindrome(phrase));
 		sc.close();
 	}
 }
