@@ -8,7 +8,6 @@ public class Functions1 {
 		int index = phrase.indexOf(word, 0);
 		while(index >= 0) { //Use lengths.
 			count++;
-			index = ;
 		}
 		return count;
 	}
