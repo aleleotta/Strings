@@ -1,10 +1,12 @@
 package exercise7;
-import java.util.*;
 
 public class Functions {
 	
 	public static boolean checkPalindrome(String phrase) {
 		boolean check = false;
+		for(int index = 0; index < phrase.length(); index++) {
+			
+		}
 		return check;
 	}
 }
