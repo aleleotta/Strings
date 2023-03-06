@@ -12,7 +12,7 @@ public class Functions {
 	}
 	
 	public static String translate(String phrase) {
-		phrase.replace("Javalin, javalon\t", "");
+		phrase = phrase.replace("Javalin, javalon\t", "");
 		return phrase;
 	}
 }
