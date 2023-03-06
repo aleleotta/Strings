@@ -7,12 +7,15 @@ public class Functions {
 		boolean check = false;
 		if(phrase.startsWith("Javalin, javalon\t")) {
 			check = true;
+		} else if(phrase.endsWith("\tJavalin, javalon")) {
+			check = true;
 		}
 		return check;
 	}
 	
 	public static String translate(String phrase) {
 		phrase = phrase.replace("Javalin, javalon\t", "");
+		phrase = phrase.replace("\tJavalin, javalon", "");
 		return phrase;
 	}
 }
