@@ -14,8 +14,9 @@ public class Functions {
 	}
 	
 	public static String translate(String phrase) {
-		phrase = phrase.replace("Javalin, javalon\t", "");
-		phrase = phrase.replace("\tJavalin, javalon", "");
+		phrase = phrase.replace("Javalin, javalon", "");
+		phrase = phrase.replace("Javalin, javalon", "");
+		phrase = phrase.trim();
 		return phrase;
 	}
 }
