@@ -5,12 +5,15 @@ public class Functions {
 	
 	public static boolean javalanCheck(String phrase) {
 		boolean check = false;
+		if(phrase.startsWith("Javalin, javalon\t")) {
+			check = true;
+		}
 		return check;
 	}
 	
 	public static String translate(String phrase) {
-		String translation = "";
-		return translation;
+		phrase.replace("Javalin, javalon\t", "");
+		return phrase;
 	}
 }
 

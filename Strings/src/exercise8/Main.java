@@ -7,6 +7,12 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Type in a phrase in Javalan:");
 		phrase = sc.nextLine();
+		if(Functions.javalanCheck(phrase) == true) {
+			System.out.println("The current phrase is written in Javalan!\nTranslating...\n\n");
+			System.out.print("Translation: " + Functions.translate(phrase));
+		} else {
+			System.out.println("The current phrase is not written in Javalan.");
+		}
 		sc.close();
 	}
 }
