@@ -3,7 +3,10 @@ import java.util.*;
 
 public class Main {
 	public static void main(String[] args) {
+		String phrase = "";
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Type in a phrase in Javalan:");
+		phrase = sc.nextLine();
 		sc.close();
 	}
 }

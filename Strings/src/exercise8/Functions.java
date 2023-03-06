@@ -3,6 +3,15 @@ import java.util.*;
 
 public class Functions {
 	
+	public static boolean javalanCheck(String phrase) {
+		boolean check = false;
+		return check;
+	}
+	
+	public static String translate(String phrase) {
+		String translation = "";
+		return translation;
+	}
 }
 
 //La cadena inicia o termina con "Javalin, javalon".
