@@ -2,7 +2,11 @@ package exercise8;
 import java.util.*;
 
 public class Functions {
+	
 }
+
+//La cadena inicia o termina con "Javalin, javalon".
+//Se tiene que traducir el dialecto a lenguaje normal usando: startsWith(), endsWith(), replace(), trim().
 
 /*Los habitantes de Javalandia tienen un idioma algo extraño;
  *cuando hablan siempre comienzan sus frases con “Javalín, javalón”,
