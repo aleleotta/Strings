@@ -4,6 +4,12 @@ import java.util.*;
 public class Functions {
 }
 
+//toCharArray() - Crea y devuelve una tabla de caracteres con el contenido de la cadena desde la que se invoca, a razón de un carácter en cada elemento.
+//valueOf(char[] tabla) - Crea y devuelve una cadena. Ej: char[] c = {‘H’, ‘o’, ‘l’, ‘a’};
+//													      String cad = String.valueOf(c); // cad=”Hola”
+//valueOf(char[] tabla, int inicio, int longitud) - Crea y devuelve una cadena con rango. Ej: char[] c = {‘a’, ‘b’, ‘c’, ‘d’, ‘e’, ‘f’, ‘g’};
+//																							  String cad = String.valueOf(c, 2, 4); // cad=”cdef”
+
 /*Disponemos de la siguiente relación de letras:
 (Mirar enunciado para ver un mejor esquema.)
 conjunto 1: e i k m p q r s t u v
